@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    font-family: 'Oswald';
+    letter-spacing: 0.25em;
+    background: rgb(39, 29, 124);
+    color: #ffffff;
+
+}
+.section1{
+    background-image: url(img/243_869829.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+h1{
+    font-size: 68px;
+    padding-top: 36%;
+    text-shadow: rgb(22, 22, 22) ;
+    font-family: 'Oswald';
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 5px 3px #000000fb;
+}
+.section2{
+  background: rgb(39, 29, 124);
+  text-align: center;
+}
+h2{
+    font-size: 58px;
+    font-family: 'Oswald';
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 5px 3px #000000fb;
+  
+    
+  }
+  .imgoslo{
+      display: flex;
+      margin-left: 25%;
+  }
+  .oslo{
+      width: 30%;
+      height: 25%;
+      margin-right: 5%;
+      transition: 1s; /* Время эффекта */
+  }
+  
+
+  .oslo:hover {
+    
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    
+  }
+  
+  .t1{
+    font-family: 'Open Sans Condensed';
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    background: rgba(156, 144, 144, 0.342);
+  }
+  .section3{
+      padding-top: 1%;
+      background: rgb(39, 29, 124);
+  text-align: left;
+  }
+  .bergenphoto{
+      display: flex;
+      justify-content: space-between;
+  }
+  .bergen{
+    width: 35%;
+    height: 28%;
+    margin-left: 5%;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.bergen:hover {
+  
+  transform: scale(1.2); /* Увеличиваем масштаб */
+  
+}
+.t2{
+    margin-left: 3%;
+    font-family: 'Open Sans Condensed';
+    margin-right: 3%;
+    margin-top: 3%;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    background: rgba(156, 144, 144, 0.342);
+}
+
+
+.tronphotos{
+    display: flex;
+    justify-content: space-between;
+}
+.tron{
+  width: 35%;
+  height: 28%;
+  margin-right: 2%;
+  transition: 1s; /* Время эффекта */
+}
+
+
+.tron:hover {
+
+transform: scale(1.2); /* Увеличиваем масштаб */
+
+}
+.t3{
+  margin-left: 3%;
+  font-family: 'Open Sans Condensed';
+  margin-right: 3%;
+  margin-top: 3%;
+  letter-spacing: 0.2em;
+  font-size: 24px;
+  background: rgba(156, 144, 144, 0.342);
+}
+.section4{
+    padding-top: 1%;
+    background: rgb(39, 29, 124);
+text-align: left;
+}
+.sp{
+  letter-spacing: 0.2em;
+    font-size: 24px;
+}
+.spi{
+  font-size: 24px;
+}
+    .spisok {
+    width: 290px;
+    }
+   
+    .psis{
+    font-size: 24px;
+     margin-left: -14%;
+    }
+    
+    .spisok .spisok1 {
+    margin-top: 15px;
+    }
+    .spisok, .spisok input, .spisok textarea {
+    width: 80%;
+    margin: 5px 0;
+    padding: 5px 15px;
+    }
+    textarea{
+      height: 20%;
+    }
+    .sbmt:hover {
+	background: rgba(0,0,0,0);
+	color: #97cfeb;
+	box-shadow: inset 0 0 0 3px #ffffff;
+}

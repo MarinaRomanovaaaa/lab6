@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Норвегия</title>
+</head>
+<body>
+    <div class="section1">
+     <h1> Путешествие по Норвегии</h1>
+    </div>
+    <div class="section2">
+        <h2>Осло</h2>
+       <div class="imgoslo">
+           <img class="oslo" src="img/block_152983.jpg" alt="Осло">
+           <img class="oslo" src="img/Осло-Норвения.jpg" alt="Осло">
+        </div>
+
+        <p class="t1" >Осло - столица и самый большой город Норвегии и третий по величине город Скандинавии. Он расположен на Востоке страны во фьорде, простирающемся до начала  пролива Скэггерэк. Город окружен зелеными холмами и горами и включает 40 островов и 343 озера.
+
+            Относительно компактный город занимает тонкую полосу земли вдоль береговой линии. Он считается одним из самых стабильных городов в мире. Несмотря на то, что в Осло огромное количество исторических достопримечательность, он больше всего известен своей современной архитектурой. В 2010 году Осло оценивался как самый дорогой город в мире для жилья.
+            </p>
+    </div>
+
+    <div class="section3">
+        <h2>Берген</h2>
+        <div class="bergenphoto">
+        
+          <img class="bergen" src="img/unnamed (1).jpg" alt="Берген">
+      
+        <p class="t2" > Берген - город на западе Норвегии, расположенный на одноименном полуострове на берегу Северного моря. Это второй по величине город страны, центр региона Хордаланд, который раскинулся в окружении живописных холмов и фьордов. Берген - один из старейших городов Норвегии, морской порт и древняя норвежская столица, где сохранилась старая деревянная архитектура и наследие ганзейского периода.</p>
+        </div>
+    </div>
+
+    
+    <div class="section4">
+        <h2>Тронхейм</h2>
+        <div class="tronphotos">
+        <p class="t3" > Тронхейм - город в Центральной Норвегии, расположенный на реке Нидельва на берегу Тронхеймского залива. Является третьим по величине в стране и одним из древнейших в Норвегии. Тронхейм - один из главных культурных центров страны, город студентов, науки, технологии и фестивалей. Он может похвастаться богатым историческим наследием, который выгодно выделяет его на фоне, например, столицы Осло.</p>
+          <img class="tron" src="img/nidelva-trondheim.jpg" alt="Тронхейм">
+      
+        
+        </div>
+    </div>
+
+    <div class="sp">
+        <h2>Анкета пользователя</h2>
+        <form class="spisok" name="feedback" method="POST" action="/feedback.php">
+        <div class="psis"></div>
+        <div>Ваше ФИО</div>
+        <input type="text" name="name" required="required">
+        <div>Ваш email</div>
+        <input type="email" name="email" required="required">
+        <div class="spisok1">В какой город вы бы хотели отправиться ?</div>
+        <select class="spi" name="theme" required="required">
+        <option value="">Выберите вариант</option>
+        <option>Осло</option>
+        <option>Берген</option>
+        <option>Тромсё</option>
+        <option>Тронхем</option>
+        </select>
+        
+        <div>Что вы знаете про Норвегию?</div>
+        <textarea name="message"></textarea>
+        <input class="sbmt" type="submit" name="submit_btn" value="Отправить">
+        </form>
+        
+        </div>
+    
+</body>
+</html>
